@@ -14,7 +14,7 @@ def InterpolatedValue(dt,st):
     val = (Temp_Cons_Data.loc[pd.to_datetime(str(dt.year)+'-12-31'),st]/12) + (dif*mult_factors[dt.month])
     return val
     
-Data_File = r'C:\Users\krish\DataScience\Project 1 - Climate Change\CO2_Data\Consumption_Monthly\Annual_Fuel_Consumption_1960-2017.csv'
+Data_File = r'C:\Users\krish\DataScience\Project 1 - Climate Change\Data\CO2_Data\Consumption_Monthly\Annual_Fuel_Consumption_1960-2017.csv'
 
 Data_Parameters = ['PATCP','CLTCP']  # Identifier for Total Petroleum products consumption 
 
